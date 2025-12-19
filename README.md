@@ -271,4 +271,27 @@ ReceivePrivate
 
 ---
 
+## WARNING
+В данном репозитории нет exe файлов, из полностью рабочих для развертывания только сервер, т.к файл самого мессенджера слишком велик, в exe файл у меня его переделать не получилось :(
+
+---
+## ИНСТРУКЦИЯ
+Главное сначало запустить сервер, скачать необходимые библиотеки:
+1.1 .NET SDK
+1.2 Microsoft.AspNetCore.App
+1.3 Microsoft.AspNetCore.SignalR
+1.4 Microsoft.AspNetCore.SignalR.Core
+Microsoft.AspNetCore.SignalR.Protocols.Json
+1.6 Microsoft.AspNetCore.Authentication (базово)
+
+2. Клиентская часть (MauiMessenger)
+2.1 .NET MAUI
+2.2 Microsoft.Maui.Controls
+2.3 Microsoft.Maui.Essentials
+2.4 Microsoft.AspNetCore.SignalR.Client
+2.5 System.Collections.ObjectModel
+2.6 System.Threading.Tasks
+
+Сначало запускаете сервер, потом клиент MAUI 
+
 **Проект готов к демонстрации и дальнейшему развитию.**
